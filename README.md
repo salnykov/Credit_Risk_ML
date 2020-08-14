@@ -49,5 +49,8 @@ Python script containing machine learning custom functions for use by Jupyter no
 Mykhaylo Salnykov - <a href="https://github.com/salnykov">https://github.com/salnykov</a>
 <h2>License</h2>
 This project is licensed under the MIT License - see the <a href="https://github.com/salnykov/Credit_Risk_ML/blob/master/LICENSE.md">LICENSE.md</a> file for details.<br>
-<h2>Ackhowledgements</h
+<h2>Data set</h2>
+DataCamp Credit Risk Modeling in Python <a href="https://assets.datacamp.com/production/repositories/4876/datasets/a2d8510b4aec8d0ac14ab9bee61ba3c085805967/cr_loan2.csv">Raw Data</a>
+
+<h2>Ackhowledgements</h2>
 
