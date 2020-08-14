@@ -2,6 +2,8 @@
 <i> by Mykhaylo Salnykov</i><br>
 
 This project was executed to establish business case on using predictive analytics' logistic regression (LR) and Gradient Boosted Trees (GBT) machine learning tool to predict defaults.<br><br>
+Approaches used in this project is inspired by the DataCamp course <a href = "https://www.datacamp.com/courses/credit-risk-modeling-in-python> Credit Risk Modelling in Python</a>.  Similarities include: data cleaning steps, model choice, goodness of fit analysis of models.  I build on the DataCamp materials to develop an own approach to data visualization, enhance goodness of fit graphs with critical information enhancing decision making, run calibration excercise for logistic regression approach and establish a business case based on the dataset by formulating underlying assumptions and applying the LR and GBP model to estimate benefits of using each model vis-a-vis current practice. <br><br>
+
 The project utilizes scikit-learn and XGBoost Python libraries to process sample dataset and estimate potential benefits of using an improved decision making credit scoring process.<br>
 <br>
 The project demonstrates that while both models allow for improved net profit on the test set, GBT model significantly overperforms LR model and yilds expected +110% increase in net profit vis-a-vis 50% increase for LR Model. <br>
