@@ -51,8 +51,8 @@ def class_rep (p_df, y_tst, target='loan_status'):
 #This function draws ROC curve and returns AUROC value
 def roc_auroc(prob_df, y_tst):   
     fallout, sensitivity, thresholds = roc_curve(y_tst, prob_df)
-    plt.plot(fallout, sensitivity, color = 'darkorange')
-    plt.plot([0, 1], [0, 1], linestyle='--')
+    plt.plot(fallout, sensitivity, color = 'red')
+    plt.plot([0, 1], [0, 1], linestyle='--', color='black')
     auc = roc_auc_score(y_tst, prob_df)
     textstr=('AUROC={:.4f}'.format(auc))
     props = dict(boxstyle='round', facecolor='wheat', alpha=0.5)
